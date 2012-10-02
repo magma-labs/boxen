@@ -9,3 +9,4 @@
 /puppet
 /script/Boxen.dSYM
 /.ruby-version
+/vendor/cache
