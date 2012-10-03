@@ -11,8 +11,9 @@
 /log
 /modules/
 /puppet
+/shared/*
+!/shared/README.md
 /script/Boxen.dSYM
 /vendor/cache
 /vendor/puppet/cache
-/shared/*
-!/shared/README.md
+
