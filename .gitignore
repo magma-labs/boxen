@@ -10,3 +10,6 @@
 /script/Boxen.dSYM
 /.ruby-version
 /vendor/cache
+/.tmp/
+/modules/
+/.librarian/
