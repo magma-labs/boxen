@@ -30,7 +30,8 @@ classes that match those project names, and includes them in the catalog.
 We can't pass a `FACTER_` env var because sudo has `env_reset`
 and we can't just modify the sudoers file due to a chicken-egg problem.
 
-## Hooks
+For your organization, it's recommended you create a module to contain the configuration in the `modules/` directory (eg. `modules/github`).
+Then, you simply need to include that module in `manifests/site.pp`.
 
 0. All hooks must be in the namespace `Boxen::Hook::MyThing`.
 
