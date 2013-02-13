@@ -8,12 +8,14 @@
 /Gemfile.lock
 /bin
 /boxen-*.gem
+/config/local.rb
 /log
 /modules/
 /puppet
 /shared/*
 !/shared/README.md
 /script/Boxen.dSYM
+/tmp
 /vendor/cache
 /vendor/puppet/cache
 
