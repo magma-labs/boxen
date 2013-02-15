@@ -4,6 +4,7 @@
 /.projects
 /.rbenv-version
 /.ruby-version
+/.snapshot
 /.tmp/
 /Gemfile.lock
 /bin
@@ -17,5 +18,6 @@
 /script/Boxen.dSYM
 /tmp
 /vendor/cache
+/vendor/gems/
 /vendor/puppet/cache
 
