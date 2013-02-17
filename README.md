@@ -41,7 +41,7 @@ Then, you simply need to include that module in `manifests/site.pp`.
 
 0. All hooks must provide a private instance method `#call`.
 
-## Contributing
+### Node definitions
 
 Use the OS X system Ruby (2.0 or newer). Run `script/tests` often. Open PR's.
 Use the CI.
