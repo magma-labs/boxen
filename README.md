@@ -46,6 +46,17 @@ Then, you simply need to include that module in `manifests/site.pp`.
 Use the OS X system Ruby (2.0 or newer). Run `script/tests` often. Open PR's.
 Use the CI.
 
+## Sharing Boxen Modules
+
+If you've got a Boxen module you'd like to be grouped under the Boxen org,
+(so it can easily be found by bothers), please file an issue on this
+repository with a link to your module.
+We'll review the code briefly, and if things look pretty all right,
+we'll fork it under the Boxen org and give you read+write access to our
+fork.
+You'll still be the maintainer, you'll still own the issues and PRs.
+It'll just be listed under the boxen org so folks can find it more easily.
+
 ## Halp!
 
 Use Issues or #boxen on irc.freenode.net.
