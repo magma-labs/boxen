@@ -17,7 +17,8 @@ Manage Mac development boxes with love (and Puppet).
    `$BOXEN_HOME/{config,data,log}`. This will normally require
    customization of a service's Homebrew formula.
 
-Sometimes it's not possible to follow these rules, but try hard.
+1. Install the Xcode Command Line Tools (full Xcode install optional).
+1. Point them at your private install of [boxen-web](https://github.com/boxen/boxen-web), **OR** have them run the following:
 
 ## Projects from the CLI
 
