@@ -70,10 +70,35 @@ node default {
   include nodejs::v0_10
 
   # default ruby versions
-  include ruby::1_8_7
-  include ruby::1_9_2
+  # include ruby::1_8_7
+  # include ruby::1_9_2
   include ruby::1_9_3
   include ruby::2_0_0
+
+  include alfred
+  include java
+  include phantomjs
+  include postgresql
+  include gimp
+  include rubymine
+  include skype
+  include vlc
+  include cyberduck
+  include pgadmin3
+  include spotify
+  include dropbox
+  include flux
+  include pivotalbooster
+  include googledrive
+  include libreoffice
+
+  include java
+  include eclipse::java
+  include shiftit
+  include tunnelblick
+  include growly
+  include watts
+  include things
 
   # common, useful packages
   package {
